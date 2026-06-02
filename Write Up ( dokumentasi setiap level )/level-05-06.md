@@ -1,1 +1,5 @@
-
+Tujuan Level : Kata sandi untuk level berikutnya tersimpan dalam sebuah file di suatu tempat di dalam direktori inhere dan memiliki semua properti berikut:mudah dibaca manusia,Berukuran 1033 byte,tidak dapat dieksekusi
+Perintah : cd, ls , cat , file 
+Langkah Penyelesaian: setelah mengetahui properti spesifik yang ditentukan sebelumnya dan berada di folder inhere.aku mulai mencari menggunakan perintah find . -type f -size 1033c ! -executable  .penjelasannya yaitu . : Cari di folder saat ini dan semua sub-foldernya.-type f : Hanya cari yang berbentuk file (bukan folder).-size 1033c : Ukurannya tepat 1033 bytes (c artinya bytes).! -executable : Tanda seru (!) artinya "TIDAK". Jadi ini mencari file yang not executable.
+hasil : 
+Pelajaran yang Didapat: Di sistem operasi Linux, file dibagi menjadi dua kategori akses eksekusi: Executable: File yang memiliki izin untuk dijalankan langsung oleh sistem.Not Executable: File biasa yang hanya berisi data atau teks (seperti file .txt, konfigurasi, atau catatan) dan tidak bisa dijalankan sebagai program.
