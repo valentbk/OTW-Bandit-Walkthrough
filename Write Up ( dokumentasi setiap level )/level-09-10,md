@@ -1,5 +1,5 @@
-Tujuan Level : Kata sandi untuk level berikutnya tersimpan dalam file data.txt dan merupakan satu-satunya baris teks yang hanya muncul sekali.
-Perintah : sort , uniq -u
-Langkah Penyelesaian: ls kemudian menemukan data.txt ,pertama aku coba baca dulu menggunakan cat .menggunakan clue yang sudah ada bahwa password hanay ada 1 dan tidak ada duplikasi kemudian saya melakukan sort terlebih dahulu untuk mengurutkan lalu mencari kata yang tidak ada duplikasinya menggunakan uniq -u 
+Tujuan Level : Kata sandi untuk level berikutnya disimpan dalam file data.txt dalam salah satu dari sedikit string yang dapat dibaca manusia, diawali dengan beberapa karakter '='.
+Perintah : strings , grep
+Langkah Penyelesaian: ls kemudian menemukan data.txt , setelah dibaca menggunakan cat isisnya not human readable , dan hanya ada sedikit text yang readable by human nah pertama kita pake perintah strings untuk menampilkan text yang human readable plus tambahkan perintah grep "=" untuk menyaring dengan clue =.
 hasil : 
-Pelajaran yang Didapat: untuk pake uniq -u harus pake sort dulu untuk diurutkan
+Pelajaran yang Didapat: untuk menapilkan text yang human readable pakai perintah strings
