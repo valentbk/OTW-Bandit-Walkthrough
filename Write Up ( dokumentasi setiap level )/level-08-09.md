@@ -1,5 +1,5 @@
-Tujuan Level : Kata sandi untuk level berikutnya tersimpan dalam file data.txt di sebelah kata millionth.
-Perintah : grep
-Langkah Penyelesaian: karna letak password sudah jelas.saya langsung cari pake perintah "grep" untuk mencari kata spesifik 
+Tujuan Level : Kata sandi untuk level berikutnya tersimpan dalam file data.txt dan merupakan satu-satunya baris teks yang hanya muncul sekali.
+Perintah : sort , uniq -u
+Langkah Penyelesaian: ls kemudian menemukan data.txt ,pertama aku coba baca dulu menggunakan cat .menggunakan clue yang sudah ada bahwa password hanay ada 1 dan tidak ada duplikasi kemudian saya melakukan sort terlebih dahulu untuk mengurutkan lalu mencari kata yang tidak ada duplikasinya menggunakan uniq -u 
 hasil : 
-Pelajaran yang Didapat: grep: Perintah Linux yang digunakan untuk mencari pola teks tertentu."millionth": Kata kunci yang ingin kamu cari (bersifat case-sensitive, jadi pastikan hurufnya kecil semua sesuai petunjuk).data.txt: Nama file yang ingin kamu periksa.Setelah kamu menekan Enter, terminal hanya akan menampilkan satu baris yang mengandung kata millionth.
+Pelajaran yang Didapat: untuk pake uniq -u harus pake sort dulu untuk diurutkan
